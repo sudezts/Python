@@ -1,6 +1,6 @@
 import random
 
-with open("C:/Users/sudeo/OneDrive/Masaüstü/Words.txt") as f:
+with open("Words.txt") as f:
     words = f.readlines()
     random_word = random.choice(words).strip()
     word_size = len(random_word)
